@@ -1,0 +1,32 @@
+<div class="calculator">
+  <div class="expression">
+    {{ expression }}
+  </div>
+
+  <div class="result">
+    {{ display }}
+  </div>
+
+  <div class="buttons">
+    <button (click)="clear()">C</button>
+    <button (click)="setOperator('/')">÷</button>
+
+    <button (click)="number('7')">7</button>
+    <button (click)="number('8')">8</button>
+    <button (click)="number('9')">9</button>
+    <button (click)="setOperator('*')">×</button>
+
+    <button (click)="number('4')">4</button>
+    <button (click)="number('5')">5</button>
+    <button (click)="number('6')">6</button>
+    <button (click)="setOperator('-')">-</button>
+
+    <button (click)="number('1')">1</button>
+    <button (click)="number('2')">2</button>
+    <button (click)="number('3')">3</button>
+    <button (click)="setOperator('+')">+</button>
+
+    <button (click)="number('0')">0</button>
+    <button class="equal" (click)="calculate()">=</button>
+  </div>
+</div>

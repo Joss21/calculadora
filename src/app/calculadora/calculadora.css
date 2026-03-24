@@ -1,0 +1,40 @@
+.calculator{
+  width:320px;
+  background:#1e1e1e;
+  padding:10px;
+  border-radius:10px;
+}
+.display{
+  padding:20px;
+  text-align:right;
+}
+
+.expression{
+  color:#aaa;
+  font-size:16px;
+  height:20px;
+}
+
+.result{
+  color:white;
+  font-size:48px;
+}
+
+.buttons{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:8px;
+}
+
+button{
+  padding:20px;
+  font-size:18px;
+  border:none;
+  border-radius:6px;
+  background:#3a3a3a;
+  color:white;
+}
+
+.equal{
+  background:#f2994a;
+}
